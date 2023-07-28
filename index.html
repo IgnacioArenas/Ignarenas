@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title> Mi Portafolio </title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#inicio"> Inicio </a></li>
+        <li><a href="#sobre-mi"> Sobre Mí </a></li>
+        <li><a href="#proyectos"> Proyectos </a></li>
+        <li><a href="#contacto"> Contacto </a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="inicio">
+    <h1> Bienvenido a mi Portafolio </h1>
+    <p>¡Hola! Mi nombre es Ignacio Arenas. Soy un desarrollador web apasionado por la creación de soluciones digitales. </p>
+  </section>
+  <section id="sobre-mi">
+    <h2> Sobre Mí </h2>
+    <p> Más de un año estudiando y practicando programación mediante cursos y de manera autodidacta. </p>
+  </section>
+  <section id="proyectos">
+    <h2> Mis proyectos </h2>
+    <div class="project">
+      <h3> <a href="https://ignacioarenas.github.io" target="_blank"> Old Aatrox </a> </h3>
+      <p> Página dedicada a enseñar cómo son las bases del famoso juego League of Legends. Además, está estilizada al estilo de uno de los personajes del videojuego. </p>
+    </div>
+  </section>
+  <section id="contacto">
+    <h2> Contacto </h2>
+    <p> Puedes encontrarme en los siguientes canales: </p>
+    <ul>
+      <li> Email: ignacioarenas2010@hotmail.com </li>
+      <li> Teléfono: +543517462021 </li>
+    </ul>
+  </section>
+  <!-- Botón de scroll to top -->
+  <button id="btn-scroll-top" onclick="scrollToTop()" aria-label="Volver arriba">
+  </button>
+  <!-- Botón para WhatsApp -->
+  <a id="btn-whatsapp" href="https://api.whatsapp.com/send?phone=+543517462021&text=Hola,%20quiero%20contactarte" target="_blank" aria-label="Contactarme por WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+  <footer>
+    <p>&copy; 2023 [Ignacio Arenas]</p>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>

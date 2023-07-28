@@ -1,0 +1,159 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2, h3 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .project {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+  }
+  
+  .project:last-child {
+    border-bottom: none;
+  }
+  
+  .project h3 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .project p {
+    margin-top: 0;
+    color: #666;
+  }
+  
+  ul li {
+    margin-bottom: 5px;
+  }
+  
+  footer {
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  /* Estilos específicos */
+  h1 {
+    font-size: 32px;
+  }
+  
+  h2 {
+    font-size: 28px;
+  }
+  
+  h3 {
+    font-size: 24px;
+  }
+
+  /* Estilos para centrar el contenido en las secciones */
+
+section {
+  text-align: center; /* Centrar el contenido horizontalmente */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 25%; /* O ajusta la altura según tus necesidades */
+}
+
+/* Estilos específicos para el botón de scroll to top */
+
+#btn-scroll-top {
+  /* ... (tu código CSS actual) */
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #880000; /* Color rojo oscuro */
+  color: #fff;
+  border: none;
+  width: 80px; /* Ancho del botón */
+  height: 80px; /* Alto del botón */
+  font-size: 48px; /* Ajusta el tamaño del ícono */
+  border-radius: 50%; /* Hace el botón circular */
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Agrega sombra */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#btn-scroll-top::before {
+  content: "\f077"; /* Código del ícono de flecha hacia arriba de Font Awesome */
+  font-family: "Font Awesome 5 Free"; /* Familia de fuente de Font Awesome */
+  font-weight: bold; /* Hace el ícono más grueso */
+}
+
+#btn-scroll-top:hover {
+  background-color: #aa0000; /* Color rojo oscuro en hover */
+}
+
+/* Estilos específicos para el botón de WhatsApp */
+#btn-whatsapp {
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+  background-color: #25d366; /* Color de WhatsApp */
+  color: #fff;
+  border: none;
+  width: 80px; /* Ancho del botón */
+  height: 80px; /* Alto del botón */
+  font-size: 48px; /* Ajusta el tamaño del ícono */
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+}
+
+#btn-whatsapp:hover {
+  background-color: #128c7e; /* Color de WhatsApp en hover */
+}
